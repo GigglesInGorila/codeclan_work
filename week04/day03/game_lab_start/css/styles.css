@@ -1,0 +1,32 @@
+body {
+    border: 5px solid red;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.lose {
+    color: red;
+}
+
+.win {
+    color: green;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: grey;
+}

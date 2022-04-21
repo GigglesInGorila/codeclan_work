@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > footer{
+    padding: 16px;
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+body > header{
+    background-color: dodgerblue;
+    color: white;
+}
+
+#logo{
+    margin: 0;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+body > main > article{
+    width: 70%;
+    margin: auto;
+}
+
+.like-button{
+    background-color: transparent;
+    border: 1px solid darkmagenta;
+    margin: 4px;
+}
+
+.share-button{
+    background-color: transparent;
+    border: 1px solid darkmagenta;
+    margin: 4px;
+}
+
+:hover.button{
+    background-color: darkmagenta;
+}
